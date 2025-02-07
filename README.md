@@ -1,0 +1,3 @@
+# Scala Immutability Bug
+
+This repository demonstrates a common, subtle bug in Scala related to the immutability of `val` variables.  The `bug.scala` file contains code with the error. The solution is provided in `bugSolution.scala`. The core issue is attempting to change a `val` inside a method, which will lead to a compilation error in Scala.  Understanding immutability is crucial for writing robust and predictable Scala code.
